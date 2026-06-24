@@ -1,7 +1,7 @@
 # Network Traffic Analysis with Suricata
-Course: Blue Team SOC Foundations
-Module: IDS/IPS Deployment & Traffic Analysis
-Date: June 24, 2026
+Course: Blue Team SOC Foundations  
+Module: IDS/IPS Deployment & Traffic Analysis  
+Date: June 24, 2026  
 Prerequisites: Lab 101 Completed, Ubuntu 24.04, GitHub Account
 
 # Lab Overview

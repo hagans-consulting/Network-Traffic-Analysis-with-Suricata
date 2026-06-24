@@ -1,0 +1,70 @@
+=============================================================================
+LAB 102: NETWORK TRAFFIC ANALYSIS - INSTRUCTOR ANSWER KEY
+=============================================================================
+Course: Blue Team SOC Foundations
+Module: IDS/IPS Deployment & Traffic Analysis
+Date: June 24, 2026
+=============================================================================
+
+SECTION 1: MULTIPLE CHOICE (Single Answer)
+-----------------------------------------------------------------------------
+
+1. Correct Answer: B
+   Explanation: HOME_NET defines the trusted internal network ranges. Suricata uses this to distinguish between internal and external traffic for rule matching.
+
+2. Correct Answer: C
+   Explanation: eve.json is the primary JSON log file containing alerts, HTTP logs, DNS logs, and other events structured for easy parsing.
+
+3. Correct Answer: B
+   Explanation: `suricata-update` is the dedicated tool for managing and updating rule sets from various sources like Emerging Threats.
+
+4. Correct Answer: B
+   Explanation: The "!" operator negates the variable. Setting EXTERNAL_NET to "!$HOME_NET" means "anything that is not part of the HOME_NET," effectively defining the internet/untrusted zone.
+
+-----------------------------------------------------------------------------
+SECTION 2: SELECT ALL THAT APPLY
+-----------------------------------------------------------------------------
+
+5. Correct Answers: B, C
+   - B (Nmap): Used for port scanning scenarios.
+   - C (Curl): Used for simulating malicious user-agents.
+   
+   Incorrect:
+   - A (Wireshark): A packet analyzer, not used to *generate* traffic in this lab.
+   - D (Metasploit): An exploitation framework, not used in this basic IDS lab.
+
+6. Correct Answers: A, C
+   - A: `jq` formats raw JSON into human-readable output.
+   - C: `jq` allows filtering (e.g., `select(.event_type=="alert")`) to find specific data points.
+   
+   Incorrect:
+   - B: `jq` is a query tool, not a firewall; it cannot block traffic.
+   - D: Rule updates are handled by `suricata-update`.
+
+-----------------------------------------------------------------------------
+SECTION 3: SHORT ANSWER & SCENARIO
+-----------------------------------------------------------------------------
+
+7. Scenario Answer:
+   Two possible configuration errors:
+   1. Incorrect HOME_NET: If the scanner's IP or target IP is not included in the HOME_NET variable, Suricata may not apply the relevant rules.
+   2. Wrong Interface: Suricata might be listening on the wrong network interface (e.g., `eth0` instead of `wlp2s0`), meaning it never sees the traffic.
+   (Other valid answers: Rules not updated, Suricata service not running).
+
+8. Policy & Risk Answer:
+   Running IDS tools and generating scan traffic on corporate/public networks is discouraged because:
+   1. Policy Violation: It often violates Acceptable Use Policies (AUP) regarding network scanning and unauthorized security testing.
+   2. False Positives: It can trigger the organization's own security alerts (SIEM/SOC), wasting their time and potentially getting you flagged as an insider threat.
+   3. Network Disruption: Aggressive scanning can impact network performance or crash sensitive IoT devices on the shared network.
+
+9. Practical Answer:
+   (Student must paste their actual terminal output here).
+   Common frequent alerts: "ET SCAN Potential SSH Scan", "GPL ATTACK_RESPONSE id check returned root", or "ET POLICY Outbound HTTP Connection to Port 80".
+
+=============================================================================
+GRADING RUBRIC SUGGESTION:
+- Multiple Choice: 4 points each (16 total)
+- Select All: 6 points each (12 total)
+- Short Answer: 8 points each (24 total)
+- Total: 52 Points (Convert to percentage as needed)
+=============================================================================   

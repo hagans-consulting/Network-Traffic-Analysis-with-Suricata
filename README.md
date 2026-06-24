@@ -9,7 +9,7 @@ In this lab, you will deploy *Suricata*, a leading open-source Intrusion Detecti
 
 Key Learning Objectives:
 
-Install and configure Suricata via CLI.
-Understand *HOME_NET* vs. *EXTERNAL_NET* variables.
-Generate and detect malicious traffic patterns (Port Scans, ICMP floods).
-Analyze JSON logs (*eve.json*) using *jq*. 
+- Install and configure Suricata via CLI.
+- Understand *HOME_NET* vs. *EXTERNAL_NET* variables.
+- Generate and detect malicious traffic patterns (Port Scans, ICMP floods).
+- Analyze JSON logs (*eve.json*) using *jq*. 

@@ -1,0 +1,83 @@
+=============================================================================
+LAB 102: NETWORK TRAFFIC ANALYSIS - PRACTICAL ASSESSMENT
+=============================================================================
+Course: Blue Team SOC Foundations
+Module: IDS/IPS Deployment & Traffic Analysis
+Date: ______________________
+Student Name: ______________________
+=============================================================================
+
+INSTRUCTIONS:
+- Answer all questions to the best of your ability.
+- For "Select All That Apply," choose every correct option.
+- For Short Answer, be concise and technical.
+
+-----------------------------------------------------------------------------
+SECTION 1: MULTIPLE CHOICE (Single Answer)
+-----------------------------------------------------------------------------
+
+1. What is the primary purpose of the HOME_NET variable in Suricata?
+   A. To define which interface Suricata listens on.
+   B. To tell Suricata which IP ranges are "trusted" internal networks.
+   C. To set the location of the log files.
+   D. To enable the intrusion prevention mode.
+
+2. Which file contains the structured JSON logs for Suricata alerts?
+   A. /var/log/syslog
+   B. /etc/suricata/suricata.yaml
+   C. /var/log/suricata/eve.json
+   D. /var/log/auth.log
+
+3. What command is used to update Suricata's detection rules?
+   A. apt update suricata-rules
+   B. suricata-update
+   C. systemctl reload rules
+   D. suricata --sync
+
+4. Why is the EXTERNAL_NET variable typically set to "!$HOME_NET"?
+   A. To allow all external traffic by default.
+   B. To define "external" as any IP that is NOT in the home network.
+   C. To disable logging for external connections.
+   D. To prioritize external traffic over internal traffic.
+
+-----------------------------------------------------------------------------
+SECTION 2: SELECT ALL THAT APPLY
+-----------------------------------------------------------------------------
+
+5. Which of the following tools were used in this lab to generate test traffic? (Select TWO)
+   [ ] A. Wireshark
+   [ ] B. Nmap
+   [ ] C. Curl
+   [ ] D. Metasploit
+
+6. Which of the following are valid reasons for using `jq` when analyzing Suricata logs? (Select TWO)
+   [ ] A. It converts JSON logs into readable, formatted text.
+   [ ] B. It automatically blocks malicious IPs.
+   [ ] C. It allows for filtering and querying specific JSON fields.
+   [ ] D. It updates the Suricata rules automatically.
+
+-----------------------------------------------------------------------------
+SECTION 3: SHORT ANSWER & SCENARIO
+-----------------------------------------------------------------------------
+
+7. SCENARIO: You run an Nmap scan against your own machine, but Suricata generates NO alerts.
+   List TWO possible configuration errors that could cause this.
+
+   Answer: __________________________________________________________________
+   ____________________________________________________________________________
+
+8. Explain why running this lab on a corporate or public WiFi network is discouraged.
+   What specific risks or policy violations might occur?
+
+   Answer: __________________________________________________________________
+   ____________________________________________________________________________
+
+9. PRACTICAL: Paste the output of the "Count Alerts by Signature" command you ran in Phase 3.
+   What was the most frequent alert type you generated?
+
+   Answer: __________________________________________________________________
+   ____________________________________________________________________________
+
+=============================================================================
+END OF ASSESSMENT
+=============================================================================   

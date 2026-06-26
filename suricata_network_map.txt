@@ -1,0 +1,99 @@
+Source: 127.0.0.1 -> Dest: 127.0.0.53 | Alert: SURICATA UDPv4 invalid checksum
+Source: 127.0.0.53 -> Dest: 127.0.0.1 | Alert: SURICATA UDPv4 invalid checksum
+Source: 127.0.0.1 -> Dest: 127.0.0.53 | Alert: SURICATA UDPv4 invalid checksum
+Source: 127.0.0.53 -> Dest: 127.0.0.1 | Alert: SURICATA UDPv4 invalid checksum
+Source: 127.0.0.1 -> Dest: 224.0.0.251 | Alert: SURICATA UDPv4 invalid checksum
+Source: 127.0.0.1 -> Dest: 127.0.0.53 | Alert: SURICATA UDPv4 invalid checksum
+Source: 127.0.0.1 -> Dest: 127.0.0.53 | Alert: SURICATA UDPv4 invalid checksum
+Source: 127.0.0.1 -> Dest: 127.0.0.53 | Alert: SURICATA UDPv4 invalid checksum
+Source: 127.0.0.53 -> Dest: 127.0.0.1 | Alert: SURICATA UDPv4 invalid checksum
+Source: 127.0.0.53 -> Dest: 127.0.0.1 | Alert: SURICATA UDPv4 invalid checksum
+Source: 127.0.0.53 -> Dest: 127.0.0.1 | Alert: SURICATA UDPv4 invalid checksum
+Source: 127.0.0.1 -> Dest: 127.0.0.53 | Alert: SURICATA UDPv4 invalid checksum
+Source: 127.0.0.1 -> Dest: 127.0.0.53 | Alert: SURICATA UDPv4 invalid checksum
+Source: 127.0.0.1 -> Dest: 127.0.0.53 | Alert: SURICATA UDPv4 invalid checksum
+Source: 127.0.0.1 -> Dest: 127.0.0.53 | Alert: SURICATA UDPv4 invalid checksum
+Source: 127.0.0.53 -> Dest: 127.0.0.1 | Alert: SURICATA UDPv4 invalid checksum
+Source: 127.0.0.53 -> Dest: 127.0.0.1 | Alert: SURICATA UDPv4 invalid checksum
+Source: 127.0.0.1 -> Dest: 127.0.0.53 | Alert: SURICATA UDPv4 invalid checksum
+Source: 127.0.0.1 -> Dest: 127.0.0.53 | Alert: SURICATA UDPv4 invalid checksum
+Source: 127.0.0.53 -> Dest: 127.0.0.1 | Alert: SURICATA UDPv4 invalid checksum
+Source: 127.0.0.53 -> Dest: 127.0.0.1 | Alert: SURICATA UDPv4 invalid checksum
+Source: 127.0.0.53 -> Dest: 127.0.0.1 | Alert: SURICATA UDPv4 invalid checksum
+Source: 127.0.0.53 -> Dest: 127.0.0.1 | Alert: SURICATA UDPv4 invalid checksum
+Source: 127.0.0.1 -> Dest: 127.0.0.53 | Alert: SURICATA UDPv4 invalid checksum
+Source: 127.0.0.1 -> Dest: 127.0.0.53 | Alert: SURICATA UDPv4 invalid checksum
+Source: 127.0.0.1 -> Dest: 127.0.0.53 | Alert: SURICATA UDPv4 invalid checksum
+Source: 127.0.0.53 -> Dest: 127.0.0.1 | Alert: SURICATA UDPv4 invalid checksum
+Source: 127.0.0.53 -> Dest: 127.0.0.1 | Alert: SURICATA UDPv4 invalid checksum
+Source: 127.0.0.53 -> Dest: 127.0.0.1 | Alert: SURICATA UDPv4 invalid checksum
+Source: 127.0.0.1 -> Dest: 127.0.0.53 | Alert: SURICATA UDPv4 invalid checksum
+Source: 127.0.0.1 -> Dest: 127.0.0.53 | Alert: SURICATA UDPv4 invalid checksum
+Source: 127.0.0.53 -> Dest: 127.0.0.1 | Alert: SURICATA UDPv4 invalid checksum
+Source: 127.0.0.1 -> Dest: 127.0.0.53 | Alert: SURICATA UDPv4 invalid checksum
+Source: 127.0.0.1 -> Dest: 127.0.0.53 | Alert: SURICATA UDPv4 invalid checksum
+Source: 127.0.0.53 -> Dest: 127.0.0.1 | Alert: SURICATA UDPv4 invalid checksum
+Source: 127.0.0.1 -> Dest: 127.0.0.53 | Alert: SURICATA UDPv4 invalid checksum
+Source: 127.0.0.53 -> Dest: 127.0.0.1 | Alert: SURICATA UDPv4 invalid checksum
+Source: 127.0.0.53 -> Dest: 127.0.0.1 | Alert: SURICATA UDPv4 invalid checksum
+Source: 127.0.0.53 -> Dest: 127.0.0.1 | Alert: SURICATA UDPv4 invalid checksum
+Source: 127.0.0.1 -> Dest: 127.0.0.53 | Alert: SURICATA UDPv4 invalid checksum
+Source: 127.0.0.1 -> Dest: 127.0.0.53 | Alert: SURICATA UDPv4 invalid checksum
+Source: 127.0.0.1 -> Dest: 127.0.0.53 | Alert: SURICATA UDPv4 invalid checksum
+Source: 127.0.0.53 -> Dest: 127.0.0.1 | Alert: SURICATA UDPv4 invalid checksum
+Source: 127.0.0.53 -> Dest: 127.0.0.1 | Alert: SURICATA UDPv4 invalid checksum
+Source: 127.0.0.53 -> Dest: 127.0.0.1 | Alert: SURICATA UDPv4 invalid checksum
+Source: 127.0.0.1 -> Dest: 127.0.0.53 | Alert: SURICATA UDPv4 invalid checksum
+Source: 127.0.0.53 -> Dest: 127.0.0.1 | Alert: SURICATA UDPv4 invalid checksum
+Source: 127.0.0.1 -> Dest: 127.0.0.53 | Alert: SURICATA UDPv4 invalid checksum
+Source: 127.0.0.1 -> Dest: 127.0.0.53 | Alert: SURICATA UDPv4 invalid checksum
+Source: 127.0.0.1 -> Dest: 127.0.0.53 | Alert: SURICATA UDPv4 invalid checksum
+Source: 127.0.0.53 -> Dest: 127.0.0.1 | Alert: SURICATA UDPv4 invalid checksum
+Source: 127.0.0.53 -> Dest: 127.0.0.1 | Alert: SURICATA UDPv4 invalid checksum
+Source: 127.0.0.53 -> Dest: 127.0.0.1 | Alert: SURICATA UDPv4 invalid checksum
+Source: 10.0.0.1 -> Dest: 255.255.255.255 | Alert: SURICATA DHCP truncated options
+Source: null -> Dest: null | Alert: SURICATA Ethertype unknown
+Source: 192.168.2.142 -> Dest: 192.168.2.45 | Alert: SURICATA HTTP Response excessive header repetition
+Source: 2001:db8:a::1 -> Dest: 2001:db8:b::1 | Alert: SURICATA Applayer Wrong direction first Data
+Source: 10.0.0.240 -> Dest: 75.75.75.75 | Alert: ET DNS Query for .to TLD
+Source: 10.0.0.240 -> Dest: 75.75.75.75 | Alert: ET DNS Query for .to TLD
+Source: 10.0.0.240 -> Dest: 75.75.75.75 | Alert: ET DNS Query for .to TLD
+Source: 2001:db8:c::1 -> Dest: 2001:db8:a::1 | Alert: SURICATA UDPv6 invalid checksum
+Source: 2001:db8:c::1 -> Dest: 2001:db8:a::1 | Alert: SURICATA UDPv6 invalid checksum
+Source: 2001:db8:c::1 -> Dest: 2001:db8:a::1 | Alert: SURICATA UDPv6 invalid checksum
+Source: 10.0.0.1 -> Dest: 255.255.255.255 | Alert: SURICATA DHCP truncated options
+Source: 2001:db8:d::1 -> Dest: 2001:db8:a::1 | Alert: GPL ATTACK_RESPONSE id check returned root
+Source: 127.0.0.1 -> Dest: 127.0.0.1 | Alert: SURICATA ICMPv4 unknown code
+Source: 127.0.0.1 -> Dest: 127.0.0.1 | Alert: SURICATA ICMPv4 unknown code
+Source: 127.0.0.1 -> Dest: 127.0.0.1 | Alert: SURICATA ICMPv4 unknown code
+Source: 127.0.0.1 -> Dest: 127.0.0.1 | Alert: SURICATA ICMPv4 unknown code
+Source: 127.0.0.1 -> Dest: 127.0.0.1 | Alert: SURICATA ICMPv4 unknown code
+Source: 127.0.0.1 -> Dest: 127.0.0.1 | Alert: SURICATA ICMPv4 unknown code
+Source: 127.0.0.1 -> Dest: 127.0.0.1 | Alert: ET SCAN Possible Nmap User-Agent Observed
+Source: 127.0.0.1 -> Dest: 127.0.0.1 | Alert: ET SCAN Possible Nmap User-Agent Observed
+Source: 127.0.0.1 -> Dest: 127.0.0.1 | Alert: ET SCAN Possible Nmap User-Agent Observed
+Source: 127.0.0.1 -> Dest: 127.0.0.1 | Alert: ET SCAN Possible Nmap User-Agent Observed
+Source: 127.0.0.1 -> Dest: 127.0.0.1 | Alert: ET SCAN Possible Nmap User-Agent Observed
+Source: 127.0.0.1 -> Dest: 127.0.0.1 | Alert: ET SCAN Possible Nmap User-Agent Observed
+Source: 127.0.0.1 -> Dest: 127.0.0.1 | Alert: ET SCAN Possible Nmap User-Agent Observed
+Source: 127.0.0.1 -> Dest: 127.0.0.1 | Alert: ET SCAN Possible Nmap User-Agent Observed
+Source: 127.0.0.1 -> Dest: 127.0.0.1 | Alert: ET SCAN Possible Nmap User-Agent Observed
+Source: 127.0.0.1 -> Dest: 127.0.0.1 | Alert: ET SCAN Possible Nmap User-Agent Observed
+Source: 127.0.0.1 -> Dest: 127.0.0.1 | Alert: ET SCAN Possible Nmap User-Agent Observed
+Source: 127.0.0.1 -> Dest: 127.0.0.1 | Alert: ET SCAN Possible Nmap User-Agent Observed
+Source: 127.0.0.1 -> Dest: 127.0.0.1 | Alert: ET SCAN Possible Nmap User-Agent Observed
+Source: 127.0.0.1 -> Dest: 127.0.0.1 | Alert: ET SCAN Possible Nmap User-Agent Observed
+Source: 127.0.0.1 -> Dest: 127.0.0.1 | Alert: ET SCAN Possible Nmap User-Agent Observed
+Source: 127.0.0.1 -> Dest: 127.0.0.1 | Alert: ET SCAN Possible Nmap User-Agent Observed
+Source: 127.0.0.1 -> Dest: 127.0.0.1 | Alert: ET SCAN Possible Nmap User-Agent Observed
+Source: 127.0.0.1 -> Dest: 127.0.0.1 | Alert: ET SCAN Possible Nmap User-Agent Observed
+Source: 127.0.0.1 -> Dest: 127.0.0.1 | Alert: ET SCAN Possible Nmap User-Agent Observed
+Source: 127.0.0.1 -> Dest: 127.0.0.1 | Alert: ET SCAN Possible Nmap User-Agent Observed
+Source: 127.0.0.1 -> Dest: 127.0.0.1 | Alert: SURICATA HTTP unable to match response to request
+Source: 127.0.0.1 -> Dest: 127.0.0.1 | Alert: ET SCAN Possible Nmap User-Agent Observed
+Source: 127.0.0.1 -> Dest: 127.0.0.1 | Alert: ET SCAN Possible Nmap User-Agent Observed
+Source: 127.0.0.1 -> Dest: 127.0.0.1 | Alert: ET SCAN Possible Nmap User-Agent Observed
+Source: 127.0.0.1 -> Dest: 127.0.0.1 | Alert: ET SCAN Possible Nmap User-Agent Observed
+Source: 127.0.0.1 -> Dest: 127.0.0.1 | Alert: ET SCAN Possible Nmap User-Agent Observed
+Source: 127.0.0.1 -> Dest: 127.0.0.1 | Alert: ET SCAN Possible Nmap User-Agent Observed
+

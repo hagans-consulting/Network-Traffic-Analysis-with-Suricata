@@ -1,0 +1,30 @@
+# Nmap 7.98 scan initiated Thu Jun 25 20:40:45 2026 as: nmap -sS -A -oN ./nmap_recon_output.log localhost
+Nmap scan report for localhost (127.0.0.1)
+Host is up (0.000095s latency).
+Other addresses for localhost (not scanned): ::1
+Not shown: 999 closed tcp ports (reset)
+PORT    STATE SERVICE VERSION
+631/tcp open  ipp     CUPS 2.4
+| http-robots.txt: 1 disallowed entry 
+|_/
+|_http-title: Home - CUPS 2.4.16
+|_http-server-header: CUPS/2.4 IPP/2.1
+No exact OS matches for host (If you know what OS is running on it, see https://nmap.org/submit/ ).
+TCP/IP fingerprint:
+OS:SCAN(V=7.98%E=4%D=6/25%OT=631%CT=1%CU=34771%PV=Y%DS=0%DC=L%G=Y%TM=6A3DCA
+OS:9F%P=x86_64-pc-linux-gnu)SEQ(SP=101%GCD=1%ISR=107%TI=Z%CI=Z%II=I%TS=21)S
+OS:EQ(SP=102%GCD=1%ISR=10C%TI=Z%CI=Z%II=I%TS=22)SEQ(SP=106%GCD=1%ISR=109%TI
+OS:=Z%CI=Z%TS=22)SEQ(SP=106%GCD=4%ISR=107%TI=Z%CI=Z%II=I%TS=21)SEQ(SP=107%G
+OS:CD=1%ISR=10B%TI=Z%CI=Z%TS=21)OPS(O1=MFFD7ST11NWA%O2=MFFD7ST11NWA%O3=MFFD
+OS:7NNT11NWA%O4=MFFD7ST11NWA%O5=MFFD7ST11NWA%O6=MFFD7ST11)WIN(W1=FFCB%W2=FF
+OS:CB%W3=FFCB%W4=FFCB%W5=FFCB%W6=FFCB)ECN(R=Y%DF=Y%T=40%W=FFD7%O=MFFD7NNSNW
+OS:A%CC=Y%Q=)T1(R=Y%DF=Y%T=40%S=O%A=S+%F=AS%RD=0%Q=)T2(R=N)T3(R=N)T4(R=Y%DF
+OS:=Y%T=40%W=0%S=A%A=Z%F=R%O=%RD=0%Q=)T5(R=Y%DF=Y%T=40%W=0%S=Z%A=S+%F=AR%O=
+OS:%RD=0%Q=)T6(R=Y%DF=Y%T=40%W=0%S=A%A=Z%F=R%O=%RD=0%Q=)T7(R=Y%DF=Y%T=40%W=
+OS:0%S=Z%A=S+%F=AR%O=%RD=0%Q=)U1(R=Y%DF=N%T=40%IPL=164%UN=0%RIPL=G%RID=G%RI
+OS:PCK=G%RUCK=G%RUD=G)IE(R=Y%DFI=N%T=40%CD=S)
+
+Network Distance: 0 hops
+
+OS and Service detection performed. Please report any incorrect results at https://nmap.org/submit/ .
+# Nmap done at Thu Jun 25 20:41:03 2026 -- 1 IP address (1 host up) scanned in 18.08 seconds

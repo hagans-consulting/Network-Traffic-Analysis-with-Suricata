@@ -1,0 +1,11 @@
+     53 SURICATA UDPv4 invalid checksum
+     28 ET SCAN Possible Nmap User-Agent Observed
+      6 SURICATA ICMPv4 unknown code
+      3 SURICATA UDPv6 invalid checksum
+      3 ET DNS Query for .to TLD
+      2 SURICATA DHCP truncated options
+      1 SURICATA HTTP unable to match response to request
+      1 SURICATA HTTP Response excessive header repetition
+      1 SURICATA Ethertype unknown
+      1 SURICATA Applayer Wrong direction first Data
+      1 GPL ATTACK_RESPONSE id check returned root
